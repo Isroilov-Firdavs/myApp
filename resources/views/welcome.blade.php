@@ -36,7 +36,7 @@
                 </div>
             @endif
 
-            <a href='/users' class='btn btn-success'>Users Page</a><br/>
+            <a href='/users' class='btn btn-success'>Users Page</a> <h1>_________</h1>
             <a href='/services/test' class='btn btn-success'>Services Page</a>
 
             <div class="max-w-6xl mx-auto sm:px-6 lg:px-8">
