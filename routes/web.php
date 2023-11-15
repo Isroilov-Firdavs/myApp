@@ -16,9 +16,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('/users', function () {
-    return view('users');
-});
-Route::get('/services/test', function () {
-    return view('services');
+
+Route::prefix('admin')->name('admin.')->group(function(){
+    Route::get('/users', function(){
+        return view('users');
+    })->name('users');
 });
